@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    form{margin-left:40px;}
+    textarea{resize: none;}
+    .myDiv {
+  background-color: white;
+  font: 1rem 'Fira Sans', sans-serif;
+
+</style>
+<body>
+<br>
+<div class="myDiv">
+    <form action="/unos_podataka">
+        <label>Korisnik (e-mail):</label><br>
+        <input class="input.box"
+               style="margin-top:10px; padding:5px 0px 5px 5px;width:200px;height:25px;"
+               type="email" name="Email"><br><br><br><br>
+        <label>Sistolički tlak</label><br>
+        <input style="margin-top:10px; padding:5px 0px 5px 5px; width:200px;height:25px;"
+               type="number" name="Sistolički tlak"><br><br>
+        <label>Dijastolički tlak</label><br>
+        <input style="margin-top:10px; padding:5px 0px 5px 5px; width:200px;height:25px;"
+               type="number" name="Sistolički tlak"><br><br>
+        <br>
+        <lablel>Opis stanja</lablel>
+        <br>
+        <textarea name="Opis" style="margin-top:10px; padding-left:5px;width:200px;height:150px;"></textarea>
+        <br><br><br>
+        <input style="color:#4863A0; background:white; border-color:#4863A0;
+    margin-left:30px; padding: 5px 35px;" type="submit" value="Pošalji">
+
+    </form>
+</div>
+
+</body>
+</html>
